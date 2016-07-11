@@ -1,0 +1,27 @@
+---
+layout: blog
+title: Blog | Vooshi
+permalink: /blog/
+---    
+{% for post in site.posts %}
+<div class="row post">
+    {% if post.img %}
+      <section class="thumbnail column medium-3 small-4">
+          <a href="{{ post.url }}"><img src="
+          {{ post.img | replace: '..', site.url }}
+          "></a>
+      </section>
+    {% endif %}
+    <section class="column medium-7 small-12">
+        <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+      <p class="author">
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        </p>
+        <div class="content">
+        {{ post.exerpt }} <a href="{{ post.url }}" class="read-more">Read more...</a>
+      </div>
+    </section>
+    <section class="column medium-2 small-0">&nbsp;</section>
+      
+</div>
+{% endfor %}

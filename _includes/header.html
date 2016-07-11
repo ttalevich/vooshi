@@ -1,0 +1,17 @@
+<header class="site-header row small-12">
+     <div class="logo small-1 column">
+         <a href="{{ site.url }}">{% include vooshi-logo.html %}</a>
+     </div>
+     <nav class="small-11 column">
+       <div class="social">
+            {% include icons/social-icons.html %}
+        </div>
+        <ul>
+            <li><a href="{{ site.url }}/about/" class="{% if page.url == '/about/' %}current{% endif %}">about</a></li>
+            <li><a href="{{ site.url }}/projects/" class="{% if page.url == '/projects/' %}current{% endif %}">projects</a></li>
+            <li><a href="{{ site.url }}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">blog</a></li>
+            <li><a href="{{ site.url }}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
+        </ul>
+        
+    </nav>
+</header>
