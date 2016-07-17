@@ -6,14 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Vooshi | Front-End Web Developer & UI/UX designer | Seattle, WA 
+email: tracey@vooshi.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Vooshi | Tracey Talevich is a Front End Web Developer based out of Seattle, WA. Specializing in Web Design / Development / SEO / UI and UX design
 baseurl: "" # the subpath of your site, e.g. /blog
-url: http://127.0.0.1:4000 # the base hostname & protocol for your site, chagne to Vooshi
+url: https://vooshi.com # the base hostname & protocol for your site, chagne to Vooshi
 twitter_username: Vooshi_
 github_username:  ttalevich
 linkedin_username: tracey-talevich
@@ -23,3 +21,6 @@ exclude:
   - package.json
   - node_modules
   - gulpfile.js
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

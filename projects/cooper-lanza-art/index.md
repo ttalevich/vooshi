@@ -102,3 +102,5 @@ If you'd like to chat about your next project: [send me an email.](mailto:tracey
 
 ![Cooper Lanza Art Contact Page](img/screen-4.png)
 {: img-wide}
+
+{% include author.html %}

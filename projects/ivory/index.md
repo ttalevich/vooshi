@@ -9,7 +9,7 @@ Ivory is an online shop for men’s designer clothing. Visitors will be able to 
 {: para}
 
 {:img-wide: .small-12 .img-wide}
-![Image](img/flip.png)
+![ ](img/flip.png)
 {: img-wide}
 
 {:h3: .center-h3 .medium-centered .medium-9 .small-12 .large-7}
@@ -32,9 +32,9 @@ These aesthetic styles heavily influenced the design and color theory behind the
 {: para}
 
 {:img-double: .small-6 .img-double}
-![Image](img/color.png)
+![ ](img/color.png)
 {: img-double}
-![Image](img/blocks.png)
+![ ](img/blocks.png)
 {: img-double}
 
 ### Functional Specifications
@@ -65,10 +65,10 @@ User profiling is used to determine your most-likely market to cater your servic
 ### Information Architecture &amp; Iteraction Design
 {: h3}
 
-![Image](img/site-map.png)
+![Site map for Ivory](img/site-map.png){: data-featherlight="img/site-map.png"}
 {: img-wide}
 
-![Image](img/interaction.png)
+![Interaction Design for Ivory](img/interaction.png){: data-featherlight="img/interaction.png"}
 {: img-wide}
 
 
@@ -83,32 +83,33 @@ Feel free to poke around the [Project Staging Area](http://tracey.pw/web202/) fo
 {: para}
 
 {:img-wide: .small-12 .img-wide}
-![Image](img/macbook.png)
+![ ](img/macbook.png)
 {: img-wide}
 
 Anyone want to help make this company a reality? Anyways, here's the final result:
 {: para}
 
 
-![Image](img/screen-1.png)
+![Home Page For Ivory](img/screen-1.png){: data-featherlight="img/screen-1.png"}
 {: img-wide}
 
-![Image](img/screen-2.png)
+![Product Listing Page for Ivory](img/screen-2.png){: data-featherlight="img/screen-2.png"}
 {: img-wide}
 
-![Image](img/screen-3.png)
+![Porduct page for Ivory](img/screen-3.png){: data-featherlight="img/screen-3.png"}
 {: img-wide}
 
-![Image](img/screen-4.png)
+![Shopping Car view for Ivory](img/screen-4.png){: data-featherlight="img/screen-4.png"}
 {: img-wide}
 
-![Image](img/screen-5.png)
+![Shipping and Billing page](img/screen-5.png){: data-featherlight="img/screen-5.png"}
 {: img-double}
-![Image](img/screen-6.png)
-{: img-double}
-
-![Image](img/screen-7.png)
-{: img-double}
-![Image](img/screen-8.png)
+![Payment information page for Ivory](img/screen-6.png){: data-featherlight="img/screen-6.png"}
 {: img-double}
 
+![Order Confirmation page for Ivory](img/screen-7.png){: data-featherlight="img/screen-7.png"}
+{: img-double}
+![Order Confirmed page for Ivory](img/screen-8.png){: data-featherlight="img/screen-8.png"}
+{: img-double}
+
+{% include author.html %}

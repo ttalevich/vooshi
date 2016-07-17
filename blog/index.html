@@ -5,23 +5,41 @@ permalink: /blog/
 ---    
 {% for post in site.posts %}
 <div class="row post">
-    {% if post.img %}
-      <section class="thumbnail column medium-3 small-4">
-          <a href="{{ post.url }}"><img src="
-          {{ post.img | replace: '..', site.url }}
-          "></a>
-      </section>
-    {% endif %}
-    <section class="column medium-7 small-12">
-        <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-      <p class="author">
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        </p>
-        <div class="content">
-        {{ post.exerpt }} <a href="{{ post.url }}" class="read-more">Read more...</a>
-      </div>
-    </section>
-    <section class="column medium-2 small-0">&nbsp;</section>
-      
+   <div class="column small-12">
+        {% if post.img %} <!-- Move to bottom, create another if post has no image than change section size below -->
+          <section class="small-centered columns">
+            <section class="thumbnail column medium-3 small-4">
+              <a href="{{ post.url }}"><img src="
+              {{ post.img | replace: '..', site.url }}
+              "></a>
+          </section>
+
+        <section class="column medium-7 small-12 ">
+            <h1 class="post-title mb--xxs"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <p class="author">
+            <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+            </p>
+            <div class="content">
+            {{ post.exerpt }} <a href="{{ post.url }}" class="read-more">Read more...</a>
+          </div>
+        </section>
+        <section class="column medium-2 small-0">&nbsp;</section>
+        </section>
+        {% endif %}
+
+        {% if post.img == null %} <!-- Move to bottom, create another if post has no image than change section size below -->
+
+        <section class="column medium-9 small-12 small-centered">
+            <h1 class="post-title mb--xxs"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <p class="author">
+            <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+            </p>
+            <div class="content">
+            {{ post.exerpt }} <a href="{{ post.url }}" class="read-more">Read more...</a>
+          </div>
+        </section>
+        <section class="column medium-2 small-0">&nbsp;</section>
+        {% endif %}
+    </div>
 </div>
 {% endfor %}

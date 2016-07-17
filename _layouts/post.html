@@ -2,14 +2,16 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
+<div class="row">
+  <header class="post-header small-12 small-centered large-centered large-8 columns">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
-
-  <div class="post-content" itemprop="articleBody">
+</div>
+<div class="row">
+  <div class="post-content small-12 small-centered large-centered large-8 columns" itemprop="articleBody">
     {{ content }}
   </div>
-
+</div>
 </article>
+{% include author.html %}

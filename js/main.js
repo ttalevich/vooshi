@@ -48,4 +48,11 @@ $(document).ready(function() {
             $(this).removeClass("fig-hover");
         }
     );
+    $('body').noisy({
+        'intensity' : 0.2, 
+        'size' : 200, 
+        'opacity' : 0.079, 
+        'fallback' : '', 
+        'monochrome' : false
+    }).css('background-color', '#fafafa');
 });
