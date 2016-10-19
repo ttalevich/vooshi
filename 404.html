@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<section class="row">
+	<section class="column small-centered small-6 mt-xl mb-xl">
+		<code>$404 = not.found</code>
+		<br>
+		<code>if ({{ "{{ page.url " }} }} == $404){
+		<br>			
+			&nbsp;&nbsp;&nbsp;echo "returning to home page in <script>
+				var count=6;
+
+				var counter=setInterval(timer, 1000); //1000 will  run it every 1 second
+
+				function timer()
+				{
+					count=count-1;
+					if (count == 0)
+					{
+						 	clearInterval(counter);
+							window.location='index.html';
+						 	return;
+					}
+					console.log(count);
+					document.getElementById("countdown").innerHTML = count;
+				}
+			</script><span id="countdown" style="color:red;"></span>";
+			<br>
+			&nbsp;&nbsp;&nbsp;return false;
+			<br>
+		}</code>
+		
+	</section>
+</section>

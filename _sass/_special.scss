@@ -1,0 +1,212 @@
+
+// About
+.portrait {
+    img {
+        opacity:.7;
+        cursor: crosshair;
+        transition:.5s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+// Project Layout
+
+.project-layout {
+    margin-top: -30px;
+    padding-bottom: 90px;
+}
+
+.project-img {
+    transition:.2s ease-in-out;
+    &:hover {
+        border-bottom: none;
+        transition:.2s ease-in-out;
+        opacity: .5;
+    }
+}
+
+// Project pages
+.project-header {
+    margin-top:60px;
+    padding-bottom: 1.3rem;
+}
+
+.img-wide {
+    margin-top:30px;
+    padding-bottom: 30px;
+}
+
+.img-double {
+    margin-top:30px;
+    display: block;
+    float:left;
+    padding-bottom:30px;
+}
+
+.center-h3 {
+    margin-top:30px;
+}
+
+.fade-in {
+    animation:fadeIn .7s ease;
+}
+
+// contact
+.contact-page {
+        margin-top:60px;
+
+
+    .contact-form {
+        input, textarea {
+            display:block;
+            width:99%;
+            max-width:100%;
+            margin-bottom: 10px;
+            border-radius: 2px;
+            box-shadow: none;
+            border:2px solid transparent;
+            border-bottom:solid 2px $grey-color;
+            border-radius: 2px;
+            outline:0;
+            padding:4px 4px;
+            color:lighten($grey-color, 30%);
+            transition:.2s ease;
+            
+            &:focus, &:active {
+                color:black;
+                transition:.2s ease;
+                border: 2px solid $brand-color;
+                box-shadow: inset 0px 0px 5px rgba(0,0,0,0.2);
+            }
+
+        } 
+        
+        textarea {border: 2px solid $grey-color; min-height:100px;}
+
+        input[type="text"], input[type="email"] {
+            width:60%;
+        }
+
+        input[type="submit"] {
+            width:80px;
+            margin-top:20px;
+            color:#fafafa;
+            font-weight: 400;
+            background:$brand-color;
+            border:none;
+            transition:.2s ease-in-out;
+            &:hover {
+                transition:.2s ease-in-out;
+                box-shadow:5px 5px darken($brand-color,10%);
+            }
+            &:focus, &:active {
+                transition:.2s ease-in-out;
+                background:#89C0C6;
+                outline:1;
+            }
+        }
+
+    }
+}
+
+// author footer
+.author-footer {
+    margin-top:60px;   
+}
+
+.author-box {
+    padding-top:60px;
+}
+
+.author-portrait {
+    transition:1s ease-in-out ;
+    &:hover {
+        transform: rotateY(360deg);
+    }
+    a {border-bottom: none;}
+    
+}
+
+.author-about {
+   
+    padding:10px 5px;
+    h4 {margin-bottom:0px;}
+    
+    p {
+        width:90%;
+        margin-bottom:5px;
+    }
+    .social {
+        margin-top:-10px;
+        a {
+            text-decoration: none;
+            padding:0 4px;
+            &:hover {
+                border-bottom:none;
+            }
+        }
+        svg {
+            width:20px;
+            height:20px;
+            fill:#7d7d7d;
+            transition: .2s ease-in-out;
+            &:hover {
+                animation: wiggle .7s ease both;
+                fill:$brand-color;
+                transition: .2s ease-in-out;
+            }
+        }
+    }
+}
+
+
+.mobile-author {
+    display:none;
+    
+    .author-footer-mob {
+        margin-top:60px;
+        img {
+            width:50px;
+            border-radius:50%;
+        }
+    }
+    
+    .social-footer {
+        margin-left:0px;
+        margin-top:30px;
+        a {
+            text-decoration: none;
+            padding:0 4px;
+            &:hover {
+                border-bottom:none;
+            }
+        }
+        svg {
+            margin-bottom:-15px;
+            width:40px;
+            height:40px;
+            fill:#7d7d7d;
+            transition: .2s ease-in-out;
+            &:hover {
+                animation: wiggle .7s ease both;
+                fill:$brand-color;
+                transition: .2s ease-in-out;
+            }
+        }
+    }
+}
+
+// Article share
+.share-page {
+	clear:both;
+	padding-top: 30px;
+	h3 {margin-bottom:0;}
+	p {font-size:.8; font-weight: 400;}
+	
+	#___plusone_0 {
+		text-indent: 0px; margin-top:10px !important; border-style: none; line-height: normal; font-size: 1px; vertical-align: baseline; width: 106px; height: 24px; background: transparent; float:none; display:block !important;
+	}
+}
+

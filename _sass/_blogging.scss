@@ -1,4 +1,50 @@
+// Blog 
+.post {
+    margin-top:60px;
+    padding-bottom: 30px;
+    p {
+        font-size:21px;
+        letter-spacing: .02em;
+    }
+}
+
+.post-title {
+    margin-bottom:10px;
+}
+
+.date {
+    font-size:.8em;
+    font-weight:400;
+}
+
+.thumbnail {
+    img {
+        max-width:100%;
+        max-height:200px;
+    }
+}
+
+.blog-ul {
+	margin:0;
+	padding:30px 0;
+		li {margin-left: 1em;}
+	}
+
+
 mark {
-    background:lighten($brand-color, 30%);
-    padding:0 4px;
+	position: relative;
+	display: inline-block;
+	background: transparent;	
+	&:before {
+		position: absolute;
+		content: '';
+		background:$brand-color;
+		padding:0 4px;
+		height:10px;
+		width:100%;
+		left:0;
+		top:12px;
+		opacity: .3;
+	}
+	
 }
