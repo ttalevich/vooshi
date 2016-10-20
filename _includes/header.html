@@ -2,7 +2,7 @@
      <div class="logo small-1 column">
          <a href="{{ site.url }}">{% include vooshi-logo.html %}</a>
      </div>
-     <nav class="small-11 column">
+     <nav class="small-11 column {% if page.url == '/' %} home-nav {% endif %}">
        <div class="social">
             {% include icons/social-icons.html %}
         </div>
@@ -12,6 +12,6 @@
             <li><a href="{{ site.url }}/blog/" class="{% if page.url == '/blog/' %}current{% endif %}">blog</a></li>
             <li><a href="{{ site.url }}/contact/" class="{% if page.url == '/contact/' %}current{% endif %}">contact</a></li>
         </ul>
-        
+
     </nav>
 </header>

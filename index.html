@@ -4,20 +4,29 @@ layout: home
 <div class="full-width home-banner">
 	<section class="row">
 		<div class="column small-12">
-				<div class="device-1">
-					
-				</div>
-			<section class="column small-8">
+			<section class="medium-8 small-6 column">
+				<div class="device-1"></div>
+				<div class="device-2"></div>
+			</section>
+			<section class="column medium-4 small-6">
 				<div class="tagline">
-					<div class="boxing"></div>
+					<h1>Give your users what they
 					<ul>
-						<li>Design.</li>
-						<li>Creative.</li>
-						<li>Research.</li>
-						<li>Accessible.</li>
-						<li>Experience.</li>
+						<li>want.</li>
+						<li>desire.</li>
+						<li>need.</li>
+						<li>deserve.</li>
+						<li>buy.</li>
+						<li>demand.</li>
+						<li>crave.</li>
+						<li>wish.</li>
+						<li>yearn.</li>
+						<li>expect.</li>
 					</ul>
+				</h1>
+
 				</div>
+				<a class="banner-btn" href="/contact/">Contact</a>
 			</section>
 		</div>
 	</section>
@@ -27,49 +36,49 @@ layout: home
 
 <!--box section-->
 <section class="row img-row">
-  <a class="column small-12 h3-link" href="projects/"><h3>projects</h3></a>  
-    
-     <figure class="column small-6 medium-6 home-img">
-        <img src="img/wsma-bg.png" alt="West Side Music Academy Project Page">
-        <figcaption>
-            <h3 class="title">WSMA</h3>
-            <p class="title">West Side Music Academy is a Seattle-based school offering lessons for multiple instruments</p>
-            <h3 class="fig-hover">Read more...</h3>
-        </figcaption>
-        <a href="/projects/wsma/"></a>
-    </figure>
-    
-    <figure class="column small-6 medium-6 home-img">
-        <img src="img/ivory-bg.jpg" alt="Ivory Project Page">
-        <figcaption>
-            <h3 class="title">Creating Ivory</h3>
-            <p class="title">Ivory is an online shop for men’s designer clothing. A study in user flow and E-Commerce interaction</p>
-            <h3 class="fig-hover">Read more...</h3>
-        </figcaption>
-        <a href="/projects/ivory/"></a>
-    </figure>
+	<a class="column small-12 h3-link" href="projects/"><h3>projects</h3></a>
 
-    <figure class="column small-6 medium-6 home-img">
-        <img src="img/lanza-bg.jpg" alt="Cooper Lanza Art Page">
-        <figcaption>
-            <h3 class="title">Cooper Lanza Art</h3>
-            <p class="title">Cooper Lanza is an oil painter who needed a portfolio website to show and reflect her artist ability</p>
-            <h3 class="fig-hover">Read more...</h3>
-        </figcaption>
-        <a href="/projects/cooper-lanza-art/"></a>
-    </figure>
-    
-    <figure class="column small-6 medium-6 home-img">
-        <img src="img/floresta-bg.png" alt="Floresta Project Page">
-        <figcaption>
-            <h3 class="title">Floresta</h3>
-            <p class="title">Located in Panama, Floresta seeks to build a housing construct with a strong sense of community</p>
-            <h3 class="fig-hover">Read more...</h3>
-        </figcaption>
-        <a href="/projects/floresta/"></a>
-    </figure>    
+	<figure class="column small-6 medium-6 home-img">
+		<img src="img/wsma-bg.png" alt="West Side Music Academy Project Page">
+		<figcaption>
+			<h3 class="title">WSMA</h3>
+			<p class="title">West Side Music Academy is a Seattle-based school offering lessons for multiple instruments</p>
+			<h3 class="fig-hover">Read more...</h3>
+		</figcaption>
+		<a href="/projects/wsma/"></a>
+	</figure>
 
-   <!-- <figure class="column small-6 medium-6 home-img">
+	<figure class="column small-6 medium-6 home-img">
+		<img src="img/ivory-bg.jpg" alt="Ivory Project Page">
+		<figcaption>
+			<h3 class="title">Creating Ivory</h3>
+			<p class="title">Ivory is an online shop for men’s designer clothing. A study in user flow and E-Commerce interaction</p>
+			<h3 class="fig-hover">Read more...</h3>
+		</figcaption>
+		<a href="/projects/ivory/"></a>
+	</figure>
+
+	<figure class="column small-6 medium-6 home-img">
+		<img src="img/lanza-bg.jpg" alt="Cooper Lanza Art Page">
+		<figcaption>
+			<h3 class="title">Cooper Lanza Art</h3>
+			<p class="title">Cooper Lanza is an oil painter who needed a portfolio website to show and reflect her artist ability</p>
+			<h3 class="fig-hover">Read more...</h3>
+		</figcaption>
+		<a href="/projects/cooper-lanza-art/"></a>
+	</figure>
+
+	<figure class="column small-6 medium-6 home-img">
+		<img src="img/floresta-bg.png" alt="Floresta Project Page">
+		<figcaption>
+			<h3 class="title">Floresta</h3>
+			<p class="title">Located in Panama, Floresta seeks to build a housing construct with a strong sense of community</p>
+			<h3 class="fig-hover">Read more...</h3>
+		</figcaption>
+		<a href="/projects/floresta/"></a>
+	</figure>
+
+	<!-- <figure class="column small-6 medium-6 home-img">
         <img src="http://fillmurray.com/460/460" alt="">
         <figcaption>
             <h3 class="title">Cooper Lanza Art</h3>
@@ -78,27 +87,24 @@ layout: home
         </figcaption>
         <a href="/projects/cooper-lanza-art/"></a>
     </figure>-->
-    
-    
+
+
 </section>
 
 <!--Latest post section-->
 <section class="row split-row project-layout">
-   <a class="column small-12 h3-link" href="/blog/"><h3>recent posts</h3></a>
-    <div class="column medium-6 small-12">
-    {% for post in site.posts limit:1 %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.exerpt }}</p>
-        <a href="{{ post.url }}" class="read-more">read more</a>
-    {% endfor %}
-    </div>
-    
-    <div class="column medium-6 small-12">
-    {% for post in site.posts limit:1 offset:1 %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.exerpt }}</p>
-        <a href="{{ post.url }}" class="read-more">read more</a>
-    {% endfor %}
-    </div>
+	<a class="column small-12 h3-link" href="/blog/"><h3>recent posts</h3></a>
+	<div class="column medium-6 small-12">
+		{% for post in site.posts limit:1 %}
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p>{{ post.exerpt }}</p>
+		<a href="{{ post.url }}" class="read-more">read more</a> {% endfor %}
+	</div>
+
+	<div class="column medium-6 small-12">
+		{% for post in site.posts limit:1 offset:1 %}
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p>{{ post.exerpt }}</p>
+		<a href="{{ post.url }}" class="read-more">read more</a> {% endfor %}
+	</div>
 </section>
-    
