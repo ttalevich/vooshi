@@ -53,11 +53,11 @@ line-height: 26px;*/
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout",
 				"home",
 				"special",
         "syntax-highlighting",
-        "blogging"
+        "blogging",
+				"layout"
 		
     
 ;

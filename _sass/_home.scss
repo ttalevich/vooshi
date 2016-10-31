@@ -28,35 +28,41 @@
 
 	
 	.tagline {
-		width:110%;
 		overflow:hidden;
 		height:30px;
 		margin-top:30px;
-		position: relative;
 		z-index:1000;
-		h1 {
+		
+		span {
 			color: #fefefe;
 			font-size: 1.1em;
 			text-align: left;
 			margin-left: 0px;
+			font-weight:400;
+			float:left;
 		}
-
-		ul {
-			list-style: none;
-			color:#fefefe;
-			font-size:1.1em;
-			display: inline;
-			float: right;
-			margin-top:-19px;
-			margin-right:16px;
-			font-weight: 600;
-			animation: change 3s .8s ease-in-out;
-			animation-fill-mode:both;
-			z-index:1;
-			li {
-				padding-bottom: 20px;
-			}
+		
+		span.list {
+			float: left;
+			width: auto;
+			margin-top:3px;
+			margin-left: -27px;
+	ul {
+		list-style: none;
+		color: #fefefe;
+		font-size: 1.1em;
+		font-weight: 600;
+		animation: change 3s .8s ease-in-out;
+		animation-fill-mode: both;
+		z-index: 100;
+		display:block;
+		margin:0;
+		li {
+			padding-bottom: 20px;
 		}
+	}
+}
+		
 	}
 
 	a.banner-btn {
@@ -93,7 +99,7 @@
 	20% { transform:translateY(-20px); }
 	40% { transform:translateY(-40px); }
 	60% { transform:translateY(-60px); }
-	100% { transform:translateY(-370px); }
+	100% { transform:translateY(-417px); }
 }
 
 
