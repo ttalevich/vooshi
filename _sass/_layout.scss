@@ -232,6 +232,12 @@ nav {
 }
 
 .home-nav {
+	position:relative;
+	z-index:1000;
+	.logo > a > svg {
+		position:relative;
+		z-index:1000;
+	}
 	a {
 		color: #fefefe;
 	}
@@ -494,13 +500,20 @@ footer {
 			margin-left: 0rem;
 		}
 	}
+	.home-banner {
+		height:300px;
+	}
 	.banner {
 		background: $brand-color;
 		margin: 60px auto 60px auto;
 		position: relative;
-		
 		}
 	span.list {
 		margin-left:3px !important;
 	}
+	
+	.scrolling-img {
+		display:none;
+	}
+	
 }

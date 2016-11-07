@@ -1,4 +1,4 @@
-<header class="site-header row small-12">
+<header class="site-header row small-12 {% if page.url == '/' %} home-nav {% endif %}">
      <div class="logo small-1 column">
          <a href="{{ site.url }}">{% include vooshi-logo.html %}</a>
      </div>
