@@ -212,20 +212,20 @@ nav {
 
 
 }
-
+.logo > a > svg {
+    position: relative;
+    z-index: 1000; }
 .home-nav {
-  a {
-    color:#fefefe;
-  }
-  .social {
-    svg { fill: #fefefe ; }
+  position: relative;
+  z-index: 1000; }
 
-    &:hover {
-      fill: #7d7d7d;
-    }
-  }
-
+  .home-nav a {
+    color: #fefefe; }
+  .home-nav .social svg {
+    fill: #fefefe; 
 }
+  .home-nav .social:hover {
+    fill: #7d7d7d; }
 
 .current {
     color:darken($grey-color, 30%);
