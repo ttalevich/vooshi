@@ -17,7 +17,7 @@
     overflow: hidden;
     margin-top: 20px; }
     .home-banner .scrolling-img img {
-      animation: slide-over 1.6s cubic-bezier(0.63, -0.15, 0.96, 0.59) reverse;
+      //animation: opacity 1.2s cubic-bezier(0.63, -0.15, 0.96, 0.59);
       height: 200px;
       width: 200%;
       position: relative;
@@ -51,7 +51,9 @@
         display: block;
         margin: 0; }
         .home-banner .tagline span.list ul li {
-          padding-bottom: 20px; }
+          padding-bottom: 20px;
+					margin-left: 0;
+}
 
 .banner-btn {
   background: #fefefe;
