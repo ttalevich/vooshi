@@ -8,13 +8,12 @@
     {% include header.html %}
 
     <div class="page-content row fade-in">
-            <h1 class="project-header column medium-centered medium-7 small-12">{{ page.header }}</h1>
+            {% if page.header %}<h1 class="project-header column medium-centered medium-7 small-12"> {{ page.header }}</h1> {% endif %}
       <div class="project-page column small-12">
         {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
-
+    
   </body>
 </html>

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Rebranding Without a Brand"
+title:  Rebranding Without a Brand | Vooshi Blog
+header:  "Rebranding Without a Brand"
 categories: update ui ux branding
 permalink: /blog/rebranding-without-a-brand.html
 exerpt: Doc says the results are in - your site is dead. Actually, hold on, it was never alive. Vooshi is my second venture into the web 'hey-look-at-me' world.
